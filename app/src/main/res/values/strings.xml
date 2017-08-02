@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Popular Movies1</string>
+
+    <string name="poster_description">Movie Poster</string>
+    <string name="api_key">api_key</string>
+    <string name="api_key_value">c31d316ea6f941462b18c48ff723c8a4</string>
+    <string name="fetching_movies">Fetching movies&#8230;</string>
+    <string name="error_message">Some error occurred while fetching movies list. Please try again later</string>
+    <string name="no_internet">No internet connection available!</string>
+
+    <string name="popular">Popular</string>
+    <string name="top_rated">Top Rated</string>
+</resources>
