@@ -4,6 +4,9 @@ import android.graphics.Rect;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
+/*
+* code from a solution mentioned in https://stackoverflow.com/questions/28531996/android-recyclerview-gridlayoutmanager-column-spacing
+* */
 public class ItemDecorationGrid extends RecyclerView.ItemDecoration {
 
     private int spanCount;

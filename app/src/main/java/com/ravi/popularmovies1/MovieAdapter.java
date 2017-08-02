@@ -85,13 +85,4 @@ class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHolder> {
         if (null == movieList) return 0;
         return movieList.size();
     }
-
-    /**
-     * This method is used to set the movie list on a GridAdapter if we've already
-     * created one. This is handy when we get new data from the web but don't want to create a
-     * new GridAdapter to display it.
-     */
-    void setMovieData() {
-        notifyDataSetChanged();
-    }
 }

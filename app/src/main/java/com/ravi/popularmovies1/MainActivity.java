@@ -63,8 +63,8 @@ public class MainActivity extends AppCompatActivity implements MovieAdapter.OnCl
     }
 
     /**
-     * This method is used when we are resetting data, so that at one point in time during a
-     * refresh of our data, you can see that there is no data showing.
+     * This method is called when we change the filter type, so that the previous data is removed
+     * and the recycler view becomes empty before loading the next data
      */
     private void invalidateData() {
         movieList.clear();
